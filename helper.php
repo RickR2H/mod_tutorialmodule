@@ -22,7 +22,6 @@ class ModTutorialmoduleHelper
 	 *
 	 * @return  string.
 	 *
-	 * @since   1.5
 	 */
 	public static function imgsourcereplace($params, $tutorialsource)
 	{
