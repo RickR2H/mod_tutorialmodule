@@ -39,32 +39,40 @@
 		<fields name="params">
 			<fieldset name="basic">
                 <field name="componenttype" type="list" default="always" label="Visible on" description="">
-                    <option value="always">always</option>
-                    <option value="com_cpanel">com_cpanel</option>
-                    <option value="com_config">com_config</option>
-                    <option value="com_checkin">com_checkin</option>
-                    <option value="com_cache">com_cache</option>
-                    <option value="com_users">com_users</option>
-                    <option value="com_menus">com_menus</option>
-                    <option value="com_content">com_content</option>
-                    <option value="com_categories">com_categories</option>
-                    <option value="com_banners">com_banners</option>
-                    <option value="com_contact">com_contact</option>
-                    <option value="com_joomlaupdate">com_joomlaupdate</option>
-                    <option value="com_messages">com_messages</option>
-                    <option value="com_newsfeeds">com_newsfeeds</option>
-                    <option value="com_postinstall">com_postinstall</option>
-                    <option value="com_redirect">com_redirect</option>
-                    <option value="com_search">com_search</option>
-                    <option value="com_finder">com_finder</option>
-                    <option value="com_tags">com_tags</option>
-                    <option value="com_installer">com_installer</option>
-                    <option value="com_modules">com_modules</option>
-                    <option value="com_templates">com_templates</option>
-                    <option value="com_languages">com_languages</option>
-                    <option value="1">Option 2</option>
+                    <option value="always">MOD_TUTORIALMODULE_TITLE1_LBL_ALWAYS</option>
+                    <option value="com_cpanel">MOD_TUTORIALMODULE_TITLE1_LBL_COM_CPANEL</option>
+                    <option value="com_config">MOD_TUTORIALMODULE_TITLE1_LBL_COM_CONFIG</option>
+                    <option value="com_checkin">MOD_TUTORIALMODULE_TITLE1_LBL_COM_CHECKIN</option>
+                    <option value="com_cache">MOD_TUTORIALMODULE_TITLE1_LBL_COM_CACHE</option>
+                    <option value="com_users">MOD_TUTORIALMODULE_TITLE1_LBL_COM_USERS</option>
+                    <option value="com_menus">MOD_TUTORIALMODULE_TITLE1_LBL_COM_MENUS</option>
+                    <option value="com_content">MOD_TUTORIALMODULE_TITLE1_LBL_COM_CONTENT</option>
+                    <option value="com_categories">MOD_TUTORIALMODULE_TITLE1_LBL_COM_CATEGORIES</option>
+                    <option value="com_banners">MOD_TUTORIALMODULE_TITLE1_LBL_COM_BANNERS</option>
+                    <option value="com_contact">MOD_TUTORIALMODULE_TITLE1_LBL_COM_CONTACT</option>
+                    <option value="com_joomlaupdate">MOD_TUTORIALMODULE_TITLE1_LBL_COM_JOOMLAUPDATE</option>
+                    <option value="com_messages">MOD_TUTORIALMODULE_TITLE1_LBL_COM_MESSAGES</option>
+                    <option value="com_newsfeeds">MOD_TUTORIALMODULE_TITLE1_LBL_COM_NEWSFEEDS</option>
+                    <option value="com_postinstall">MOD_TUTORIALMODULE_TITLE1_LBL_COM_POSTINSTALL</option>
+                    <option value="com_redirect">MOD_TUTORIALMODULE_TITLE1_LBL_COM_REDIRECT</option>
+                    <option value="com_search">MOD_TUTORIALMODULE_TITLE1_LBL_COM_SEARCH</option>
+                    <option value="com_finder">MOD_TUTORIALMODULE_TITLE1_LBL_COM_FINDER</option>
+                    <option value="com_tags">MOD_TUTORIALMODULE_TITLE1_LBL_COM_TAGS</option>
+                    <option value="com_installer">MOD_TUTORIALMODULE_TITLE1_LBL_COM_INSTALLER</option>
+                    <option value="com_modules">MOD_TUTORIALMODULE_TITLE1_LBL_COM_MODULES</option>
+                    <option value="com_templates">MOD_TUTORIALMODULE_TITLE1_LBL_COM_TEMPLATES</option>
+                    <option value="com_languages">MOD_TUTORIALMODULE_TITLE1_LBL_COM_LANGUAGES</option>
                 </field>
-
+                <field name="header1" type="text" default="" label="MOD_TUTORIALMODULE_TITLE1_LBL" description="" />
+                <field name="tutorial1" label ="MOD_TUTORIALMODULE_EDITOR1_LBL" type="editor" width="300" filter="safehtml" />
+                <field name="header2" type="text" default="" label="MOD_TUTORIALMODULE_TITLE2_LBL" description="" />
+                <field name="tutorial2" label ="MOD_TUTORIALMODULE_EDITOR2_LBL" type="editor" width="300" filter="safehtml" />
+                <field name="header3" type="text" default="" label="MOD_TUTORIALMODULE_TITLE3_LBL" description="" />
+                <field name="tutorial3" label ="MOD_TUTORIALMODULE_EDITOR3_LBL" type="editor" width="300" filter="safehtml" />
+                <field name="header4" type="text" default="" label="MOD_TUTORIALMODULE_TITLE4_LBL" description="" />
+                <field name="tutorial4" label ="MOD_TUTORIALMODULE_EDITOR4_LBL" type="editor" width="300" filter="safehtml" />
+                <field name="header5" type="text" default="" label="MOD_TUTORIALMODULE_TITLE5_LBL" description="" />
+                <field name="tutorial5" label ="MOD_TUTORIALMODULE_EDITOR5_LBL" type="editor" width="300" filter="safehtml" />
 			</fieldset>
 
 			<fieldset name="advanced">
