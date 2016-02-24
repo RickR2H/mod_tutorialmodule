@@ -13,6 +13,25 @@ defined('_JEXEC') or die;
  * @package		Joomla.Site
  * @subpakage	TutorialModule
  */
-class ModTutorialmoduleHelper {
+class ModTutorialmoduleHelper
+{
+	/**
+	 * Method to change relative path so images will be show in backend module editor field output.
+	 *
+	 * @param   JRegisty  $params  The parameters object.
+	 *
+	 * @return  string.
+	 *
+	 * @since   1.5
+	 */
+	public static function imgsourcereplace($params, $tutorialsource)
+	{
 
+		// Replace the images by ../images to make the source path correct for use in the backend
+		$rightImageURL = str_replace('src="images','src="../images',$tutorialsource);
+
+		// Return the code with the new URL's
+		return $rightImageURL;
+
+	}
 }

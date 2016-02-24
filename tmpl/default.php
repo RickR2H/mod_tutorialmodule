@@ -10,23 +10,23 @@ defined('_JEXEC') or die;
 //JHtml::_('script', 'mod_r2h_tutorialmodule/script.js', array(), true);
 //JHtml::_('stylesheet', 'mod_r2h_tutorialmodule/style.css', array(), true);
 
+// Get the component type form the module params
 $componenttype  = $params->get('componenttype','');
+
+// Get Module ID
 $modid          = $module->id;
+
+// Get the titles from the params
 $header1        = $params->get('header1','');
 $header2        = $params->get('header2','');
 $header3        = $params->get('header3','');
 $header4        = $params->get('header4','');
 $header5        = $params->get('header5','');
-$tutorial1      = $params->get('tutorial1','');
-$tutorial2      = $params->get('tutorial2','');
-$tutorial3      = $params->get('tutorial3','');
-$tutorial4      = $params->get('tutorial4','');
-$tutorial5      = $params->get('tutorial5','');
 
 // Get the applications params
 $jinput = JFactory::getApplication()->input;
 
-// Get content type
+// Get content type from the application
 $type = $jinput->get('option');
 ?>
 

@@ -10,6 +10,12 @@ defined('_JEXEC') or die;
 // include the syndicate functions only once
 require_once __DIR__ . '/helper.php';
 
-$class_sfx = htmlspecialchars($params->get('class_sfx'));
+$tutorial1  = ModTutorialmoduleHelper::imgsourcereplace($params, $params->get('tutorial1',''));
+$tutorial2  = ModTutorialmoduleHelper::imgsourcereplace($params, $params->get('tutorial2',''));
+$tutorial3  = ModTutorialmoduleHelper::imgsourcereplace($params, $params->get('tutorial3',''));
+$tutorial4  = ModTutorialmoduleHelper::imgsourcereplace($params, $params->get('tutorial4',''));
+$tutorial5  = ModTutorialmoduleHelper::imgsourcereplace($params, $params->get('tutorial5',''));
+
+$class_sfx  = htmlspecialchars($params->get('class_sfx'));
 
 require(JModuleHelper::getLayoutPath('mod_tutorialmodule', $params->get('layout', 'default')));
