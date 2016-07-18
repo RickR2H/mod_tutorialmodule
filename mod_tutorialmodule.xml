@@ -64,15 +64,15 @@
                     <option value="com_languages">MOD_TUTORIALMODULE_TITLE1_LBL_COM_LANGUAGES</option>
                 </field>
                 <field name="header1" type="text" default="" label="MOD_TUTORIALMODULE_TITLE1_LBL" description="" />
-                <field name="tutorial1" label ="MOD_TUTORIALMODULE_EDITOR1_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="safehtml" />
+                <field name="tutorial1" label ="MOD_TUTORIALMODULE_EDITOR1_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="raw" />
                 <field name="header2" type="text" default="" label="MOD_TUTORIALMODULE_TITLE2_LBL" description="" />
-                <field name="tutorial2" label ="MOD_TUTORIALMODULE_EDITOR2_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="safehtml" />
+                <field name="tutorial2" label ="MOD_TUTORIALMODULE_EDITOR2_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="raw" />
                 <field name="header3" type="text" default="" label="MOD_TUTORIALMODULE_TITLE3_LBL" description="" />
-                <field name="tutorial3" label ="MOD_TUTORIALMODULE_EDITOR3_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="safehtml" />
+                <field name="tutorial3" label ="MOD_TUTORIALMODULE_EDITOR3_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="raw" />
                 <field name="header4" type="text" default="" label="MOD_TUTORIALMODULE_TITLE4_LBL" description="" />
-                <field name="tutorial4" label ="MOD_TUTORIALMODULE_EDITOR4_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="safehtml" />
+                <field name="tutorial4" label ="MOD_TUTORIALMODULE_EDITOR4_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="raw" />
                 <field name="header5" type="text" default="" label="MOD_TUTORIALMODULE_TITLE5_LBL" description="" />
-                <field name="tutorial5" label ="MOD_TUTORIALMODULE_EDITOR5_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="safehtml" />
+                <field name="tutorial5" label ="MOD_TUTORIALMODULE_EDITOR5_LBL" type="editor" width="300" buttons="true" hide="readmore,pagebreak,module" filter="raw" />
 			</fieldset>
 
 			<fieldset name="advanced">
